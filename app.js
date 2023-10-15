@@ -1,5 +1,4 @@
 const apiEndpoint = 'https://dog.ceo/api/breeds/image/random';
-const apiKey = ''; // No API key needed for a local file
 
 const dogImage = document.getElementById('dog-image');
 const likeButton = document.getElementById('like-button');
