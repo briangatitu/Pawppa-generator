@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Image Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Dog Image Viewer</h1>
+    </header>
+    <main>
+        <div id="dog-image-container">
+            <img id="dog-image" src="" alt="Random Dog Image">
+            <div id="like-dislike-buttons">
+                <button id="like-button">Like</button>
+                <button id="dislike-button">Dislike</button>
+            </div>
+        </div>
+        <div id="like-dislike-counts">
+            <p id="like-count">Likes: 0</p>
+            <p id="dislike-count">Dislikes: 0</p>
+        </div>
+        <div id="comments-section">
+            <h2>Comments</h2>
+            <ul id="comments-list"></ul>
+            <form id="comment-form">
+                <input type="text" id="comment-input" placeholder="Add a comment" />
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div id="generate-dog-button">
+            <button id="generate-dog">Generate Random Dog</button>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
